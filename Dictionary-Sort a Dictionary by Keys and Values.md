@@ -28,11 +28,16 @@ To write a Python program that sorts a dictionary's:
 6. **End the program.**
 
 ---
-
 ## 🧪Program
-Add Code here
-
-## Sample Output
+```
+data=eval(input())
+sort=dict(sorted(data.items()))
+print("Keys and Values sorted in alphabetical order by the key")
+for key, value in sort.items():
+    print(f"({key}, {value}) ",end="")
+```
+## Sammple Output
+<img width="1190" height="110" alt="image" src="https://github.com/user-attachments/assets/4ae11d80-df3c-44c5-a516-2cda68ab4351" />
 
 ## Result
-
+Thus, the program executed successfully.
